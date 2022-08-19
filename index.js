@@ -4,7 +4,7 @@ var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: 'hadtnt71@gmail.com',
-    pass: 'phambinh3107duyminh22',
+    pass: 'pmcpcegngfxmtetm',
   },
 });
 var mailOptions = {
@@ -17,6 +17,6 @@ transporter.sendMail(mailOptions, function (err, info) {
   if (err) {
     console.log('err', err);
   } else {
-    console.log('info', info.message);
+    console.log('info', info);
   }
 });
